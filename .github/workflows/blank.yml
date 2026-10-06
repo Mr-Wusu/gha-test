@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: Deploy Step
-        run: echo "Deploying to server"
+        run: echo "Deployed to server"
           
