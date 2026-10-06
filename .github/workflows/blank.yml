@@ -8,14 +8,16 @@ jobs:
         run: echo "A demo build"
   test:
     runs-on: ubuntu-22.04
+    needs: build
     steps:
       - name: Test Step
         run: echo "Running test cases"
-      depends-on: build
+      
   deploy:
     runs-on: ubuntu-slim
+    needs: test
     steps:
       - name: Deploy Step
         run: echo "Deployed to server"
-      depends-on: test
+      
           
