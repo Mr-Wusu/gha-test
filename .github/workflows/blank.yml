@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: Hello stop
-        run: echo "Welcome to GHA"
+        run: |
+          echo "This is running first step"
+          echo "This is running second step"
+          
