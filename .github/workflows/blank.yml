@@ -7,5 +7,5 @@ jobs:
       - name: Hello stop
         run: |
           echo "This ran step-1"
-          echo "This ran step-2"
+          echo "Run it again"
           
