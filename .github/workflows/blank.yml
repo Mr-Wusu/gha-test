@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Hello stop
         run: |
-          echo "This is running first step"
-          echo "This is running second step"
+          echo "This is running step-1"
+          echo "This is running step-2"
           
